@@ -19,6 +19,8 @@ This repo shows how the following computational methods were implemented:
 * Figure S5: Pearson correlation cofficients for cluster distribution between unique clonotypes based on degree of clonal expansion
 
 ## Links to External Tools
-Cellranger
-Cellbender
-scVI
+* Cellranger
+* Cellbender
+* scVI
+* PyDESeq2
+* Monocle3
