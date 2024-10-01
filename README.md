@@ -7,7 +7,7 @@ This repo shows how the following computational methods were implemented:
 
 * Preparation of filtered, T-cell enriched annData object used for all downstream analysis
 * Training of variational autoencoder model using scVI to generate clusters
-* Figure 4E-F: Pseudobulk differential expression lung and liver T cells
+* Figure 4E: Pseudobulk differential expression lung and liver T cells
 * Figure 5A: Division of clonotypes by degrees of expansion
 * Figure 5C: Agglomerative hierarchical clustering of shared clonotypes with at least 5 clones in both organs
 * Figure 5D: Euclidean distance calculation using latent space between shared clonotypes with at least 5 clones in both organs
