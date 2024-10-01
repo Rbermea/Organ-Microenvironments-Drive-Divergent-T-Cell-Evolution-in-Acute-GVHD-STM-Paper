@@ -5,7 +5,6 @@ This repository contains code and analysis to replicate the findings of Ingersol
 
 This repo shows how the following computational methods were implemented:
 
-* Removal of ambient RNA from Cellranger multi output using Cellbender
 * Preparation of filtered, T-cell enriched annData object used for all downstream analysis
 * Training of variational autoencoder model using scVI to generate clusters
 * Figure 4E-F: Pseudobulk differential expression lung and liver T cells
