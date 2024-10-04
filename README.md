@@ -5,17 +5,32 @@ This repository contains code and analysis to replicate the findings of Ingersol
 
 This repo shows how the following computational methods were implemented:
 
+### Notebook 01
 * Preparation of filtered, T-cell enriched annData object used for all downstream analysis
 * Training of variational autoencoder model using scVI to generate clusters for downstream analysis
+
+### Notebook 02
 * Figure 4E: Pseudobulk differential expression lung and liver T cells
+
+### Notebook 03
 * Figure 5A, 5B, S5A, S5C: Defining clonotype "shared" and "unique" status and dividing clonotypes by degrees of expansion
+
+### Notebook 04
 * Figure 5C: Agglomerative hierarchical clustering of shared clonotypes with at least 5 clones in both organs
 * Figure 5D: Euclidean distance calculation using latent space between shared clonotypes with at least 5 clones in both organs
+
+### Notebook 05
 * Figure 5E: Calculation of Jaccard similarity coefficients for cluster distributions between shared clonotypes 
-* Figure 5F-K: RNA trajectory analysis using Monocle3
+
+### Notebook 06
 * Figure 5L: Pearson correlation coefficients for cluster distribution between shared clonotypes based on degree of clonal expansion
 * Figure S5B: Pearson correlation cofficients for cluster distribution between unique clonotypes based on degree of clonal expansion
+
+### Notebook 07
 * Figure S4: AUCell score generation for tissue resident memory T cell signatures
+
+### Notebook 08
+* Figures 5F-K: RNA trajectory analysis using Monocle3
 
 ## Links to External Tools
 * Cellranger
