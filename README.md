@@ -1,7 +1,7 @@
 # Organ Microenvironments Drive Divergent T Cell Evolution in Acute GVHD (STM 2024) Code Repo
 
 This repository contains code and analysis to replicate the findings of Ingersoll and Bermea et al
-## Contents
+## Source Code
 
 ### Notebook 01
 * Preparation of filtered, T-cell enriched annData object used for all downstream analysis
