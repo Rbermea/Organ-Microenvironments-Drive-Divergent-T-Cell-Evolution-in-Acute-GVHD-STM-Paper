@@ -3,8 +3,6 @@
 This repository contains code and analysis to replicate the findings of Ingersoll and Bermea et al
 ## Contents
 
-This repo shows how the following computational methods were implemented:
-
 ### Notebook 01
 * Preparation of filtered, T-cell enriched annData object used for all downstream analysis
 * Training of variational autoencoder model using scVI to generate clusters for downstream analysis
