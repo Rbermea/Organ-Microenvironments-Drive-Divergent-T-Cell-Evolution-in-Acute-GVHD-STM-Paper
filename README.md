@@ -33,10 +33,14 @@ Location of primary files can be found on the Gene Expression Omnibus database.
 ### Notebook 08
 * Figures 5F-K: RNA trajectory analysis using Monocle3
 
-## Links to External Tools
-* Cellranger
-* Cellbender
-* scVI
-* PyDESeq2
-* Monocle3
-* decoupler
+## Links to External Tools (please check specific notebooks for version)
+* Cellranger - https://www.10xgenomics.com/support/software/cell-ranger/latest
+* Cellbender -  https://cellbender.readthedocs.io/en/latest/index.html 
+* scVI - https://scvi-tools.org/
+* PyDESeq2 - https://pydeseq2.readthedocs.io/en/latest/# 
+* decoupler - https://decoupler-py.readthedocs.io/en/latest/
+* anndata - https://anndata.readthedocs.io/en/latest/
+* Scanpy - https://scanpy.readthedocs.io/en/stable/
+* SciPy - https://scipy.org/
+* scikit-learn - https://scikit-learn.org/stable/
+* Monocle3 - https://cole-trapnell-lab.github.io/monocle3/ 
