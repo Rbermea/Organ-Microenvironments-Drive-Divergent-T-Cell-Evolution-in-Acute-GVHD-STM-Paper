@@ -35,13 +35,15 @@ Location of primary files can be found on the Gene Expression Omnibus database.
 
 ## Links to External Tools
 ### Please check specific notebooks for version information
-* Cellranger - https://www.10xgenomics.com/support/software/cell-ranger/latest
-* Cellbender -  https://cellbender.readthedocs.io/en/latest/index.html 
-* scVI - https://scvi-tools.org/
-* PyDESeq2 - https://pydeseq2.readthedocs.io/en/latest/# 
-* decoupler - https://decoupler-py.readthedocs.io/en/latest/
-* anndata - https://anndata.readthedocs.io/en/latest/
-* Scanpy - https://scanpy.readthedocs.io/en/stable/
-* SciPy - https://scipy.org/
-* scikit-learn - https://scikit-learn.org/stable/
-* Monocle3 - https://cole-trapnell-lab.github.io/monocle3/ 
+* Cellranger (v.7.0.0) - https://www.10xgenomics.com/support/software/cell-ranger/latest
+* Cellbender (v0.2.0) -  https://cellbender.readthedocs.io/en/latest/index.html 
+* scVI (v<0.15.0) - https://scvi-tools.org/
+* PyDESeq2 (v0.4.10) - https://pydeseq2.readthedocs.io/en/latest/# 
+* decoupler (v1.6.0) - https://decoupler-py.readthedocs.io/en/latest/
+* anndata (see notebook for version) - https://anndata.readthedocs.io/en/latest/
+* Scanpy (see notebook for version) - https://scanpy.readthedocs.io/en/stable/
+* SciPy (v1.12.0) - https://scipy.org/
+* scikit-learn (v1.5.1) - https://scikit-learn.org/stable/
+* Monocle3 (v1.3.7) - https://cole-trapnell-lab.github.io/monocle3/
+* Zellkonverter (v.1.12.1) - https://bioconductor.org/packages/release/bioc/html/zellkonverter.html
+* SingleCellExperiment (v1.24.0) - https://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html
