@@ -1,0 +1,46 @@
+---
+title: "08_RNA_Trajectory_Analysis_of_Shared_Clonotypes_via_Monocle3"
+---
+
+```{r}
+library(zellkonverter) #v1.12.1
+library(SingleCellExperiment) #v1.24.0
+library(monocle3) #v1.3.7
+library(ggplot2) #v3.5.1
+```
+
+```{r}
+shared_clonotypes <- readH5AD("/Users/rbermea/Kean Lab Dropbox/Rene Bermea/Final_Repository_Files/annData_objects/clean_hdf5/03_shared_clonotype_object.hdf5")
+
+expression_matrix <- assay(shared_clonotypes,"X")
+cell_metadata <- colData(shared_clonotypes)
+gene_metadata <- rowData(shared_clonotypes)
+gene_metadata$gene_short_name <- rownames(gene_metadata)
+
+cds <- new_cell_data_set(expression_matrix,
+                         cell_metadata,
+                         gene_metadata)
+
+```
+
+```{r}
+cds <- preprocess_cds(cds, num_dim = 50)
+cds <- align_cds(cds,alignment_group = "experimental_batch")
+cds <- align_cds(cds,alignment_group = "animal_id")
+cds <- reduce_dimension(cds)
+cds <- cluster_cells(cds)
+cds <- learn_graph(cds)
+```
+
+```{r}
+cds <- order_cells(cds)
+```
+
+```{r}
+plot_cells(cds, label_cell_groups = FALSE, color_cells_by = "pseudotime" , show_trajectory_graph = TRUE, group_label_size = 50, graph_label_size = 3, cell_size = 2, trajectory_graph_segment_size = 5, label_leaves = TRUE, label_roots = TRUE, label_branch_points = TRUE, trajectory_graph_color = "black") # Original Segment Size = 3
+```
+
+```{r}
+plot_cells(cds, genes= c("EOMES"), label_cell_groups = FALSE, color_cells_by = "organ", show_trajectory_graph = FALSE, group_label_size = 10, graph_label_size = 3, cell_size = 2, trajectory_graph_segment_size = 3, label_leaves = TRUE, label_branch_points = TRUE, label_roots=TRUE)
+```
+
