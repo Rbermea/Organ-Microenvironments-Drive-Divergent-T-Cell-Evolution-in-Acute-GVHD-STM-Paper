@@ -33,7 +33,8 @@ Location of primary files can be found on the Gene Expression Omnibus database.
 ### Notebook 08
 * Figures 5F-K: RNA trajectory analysis using Monocle3
 
-## Links to External Tools (please check specific notebooks for version)
+## Links to External Tools
+### Please check specific notebooks for version information
 * Cellranger - https://www.10xgenomics.com/support/software/cell-ranger/latest
 * Cellbender -  https://cellbender.readthedocs.io/en/latest/index.html 
 * scVI - https://scvi-tools.org/
