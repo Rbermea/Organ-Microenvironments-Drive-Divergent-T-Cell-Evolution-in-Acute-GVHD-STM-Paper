@@ -1,10 +1,10 @@
-# Organ Microenvironments Drive Divergent T Cell Evolution in Acute GVHD (STM 2024) Code Repo
+# Organ Microenvironments Drive Divergent T Cell Evolution in Acute GVHD (STM 2024) Single Cell Analysis Code Repo
 
-This repository contains code and analysis to replicate the single cell analysis findings of Ingersoll and Bermea et al
-Location of primary files can be found on the Gene Expression Omnibus database
-Please note that this source code allows for the reproduction of data that is eventually used to create the figures found in the paper. Because many of our figures were generated using the GraphPad Prism software (Version 10, https://www.graphpad.com/), the end result of these notebooks will not result in visual output. 
-Figures 4B, 4C, S3A, S3B, and S4 can be re-created from primary data using scanpy.pl.umap (https://scanpy.readthedocs.io/en/1.10.x/api/generated/scanpy.pl.umap.html). See external tools section below for more details
-Figure S3 can be re-created from primary data using scanpy.pl.dotplot (https://scanpy.readthedocs.io/en/stable/generated/scanpy.pl.dotplot.html). See external tools section below for more details
+* This repository contains code and analysis to replicate the single cell analysis findings of Ingersoll and Bermea et al
+* Location of primary files can be found on the Gene Expression Omnibus database
+* Please note that this source code allows for the reproduction of data that is eventually used to create the figures found in the paper. Because many of our figures were generated using the GraphPad Prism software (Version 10, https://www.graphpad.com/), the end result of these notebooks will not result in visual output. 
+* Figures 4B, 4C, S3A, S3B, and S4 can be re-created from primary data using scanpy.pl.umap (https://scanpy.readthedocs.io/en/1.10.x/api/generated/scanpy.pl.umap.html). See external tools section below for more details
+* Figure S3 can be re-created from primary data using scanpy.pl.dotplot (https://scanpy.readthedocs.io/en/stable/generated/scanpy.pl.dotplot.html). See external tools section below for more details
 
 ## Source Code
 
