@@ -10,7 +10,7 @@ library(ggplot2) #v3.5.1
 ```
 
 ```{r}
-shared_clonotypes <- readH5AD("/Users/rbermea/Kean Lab Dropbox/Rene Bermea/Final_Repository_Files/annData_objects/clean_hdf5/03_shared_clonotype_object.hdf5")
+shared_clonotypes <- readH5AD("___") # Replace "___" with "03_shared_clonotype_object.hdf5"
 
 expression_matrix <- assay(shared_clonotypes,"X")
 cell_metadata <- colData(shared_clonotypes)
