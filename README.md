@@ -4,7 +4,7 @@
 * Location of primary files can be found on the Gene Expression Omnibus database
 * Please note that this source code allows for the reproduction of data that is eventually used to create the figures found in the paper. Because many of our figures were generated using the GraphPad Prism software (Version 10, https://www.graphpad.com/), the end result of these notebooks will not result in visual output. 
 * Figures 4B, 4C, S3A, S3B, and S4 can be re-created from primary data using scanpy.pl.umap (https://scanpy.readthedocs.io/en/1.10.x/api/generated/scanpy.pl.umap.html). See external tools section below for more details
-* Figure S3 can be re-created from primary data using scanpy.pl.dotplot (https://scanpy.readthedocs.io/en/stable/generated/scanpy.pl.dotplot.html). See external tools section below for more details
+* Figure S3D can be re-created from primary data using scanpy.pl.dotplot (https://scanpy.readthedocs.io/en/stable/generated/scanpy.pl.dotplot.html). See external tools section below for more details
 
 ## Source Code
 
