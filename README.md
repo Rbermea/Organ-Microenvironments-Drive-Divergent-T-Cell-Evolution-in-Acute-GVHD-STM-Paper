@@ -16,7 +16,7 @@
 * Figure 4E: Pseudobulk differential expression lung and liver T cells
 
 ### Notebook 03
-* Figure 5A, 5B, S5: Defining clonotype "shared" and "unique" status and dividing clonotypes by degrees of expansion
+* Figure 5A, 5B, S5B: Defining clonotype "shared" and "unique" status and dividing clonotypes by degrees of expansion
 
 ### Notebook 04
 * Figure 5C: Agglomerative hierarchical clustering of shared clonotypes with at least 5 clones in both organs
