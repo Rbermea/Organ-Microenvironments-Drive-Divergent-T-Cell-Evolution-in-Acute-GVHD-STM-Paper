@@ -3,7 +3,7 @@
 * This repository contains code and analysis to replicate the single cell analysis findings of Ingersoll and Bermea et al
 * Location of primary files can be found on the Gene Expression Omnibus database
 * Please note that this source code allows for the reproduction of data that is eventually used to create the figures found in the paper. Because many of our figures were generated using the GraphPad Prism software (Version 10, https://www.graphpad.com/), the end result of these notebooks will not result in visual output. 
-* Figures 4B, 4C, S3A, S3B, and S4 can be re-created from primary data using scanpy.pl.umap (https://scanpy.readthedocs.io/en/1.10.x/api/generated/scanpy.pl.umap.html). See external tools section below for more details
+* Figures 5B, 5C, S3A, S3B, and S4 can be re-created from primary data using scanpy.pl.umap (https://scanpy.readthedocs.io/en/1.10.x/api/generated/scanpy.pl.umap.html). See external tools section below for more details
 * Figure S3D can be re-created from primary data using scanpy.pl.dotplot (https://scanpy.readthedocs.io/en/stable/generated/scanpy.pl.dotplot.html). See external tools section below for more details
 
 ## Source Code
@@ -13,27 +13,27 @@
 * Training of variational autoencoder model using scVI to generate clusters for downstream analysis
 
 ### Notebook 02
-* Figure 4E: Pseudobulk differential expression lung and liver T cells
+* Figure 5E: Pseudobulk differential expression lung and liver T cells
 
 ### Notebook 03
-* Figure 5A, 5B, S5B: Defining clonotype "shared" and "unique" status and dividing clonotypes by degrees of expansion
+* Figure 6A, 6B, S5B: Defining clonotype "shared" and "unique" status and dividing clonotypes by degrees of expansion
 
 ### Notebook 04
-* Figure 5C: Agglomerative hierarchical clustering of shared clonotypes with at least 5 clones in both organs
-* Figure 5D: Euclidean distance calculation using latent space between shared clonotypes with at least 5 clones in both organs
+* Figure 6C: Agglomerative hierarchical clustering of shared clonotypes with at least 5 clones in both organs
+* Figure 6D: Euclidean distance calculation using latent space between shared clonotypes with at least 5 clones in both organs
 
 ### Notebook 05
 * Figure 5E: Calculation of Jaccard similarity coefficients for cluster distributions between shared clonotypes 
 
 ### Notebook 06
-* Figure 5L: Pearson correlation coefficients for cluster distribution between shared clonotypes based on degree of clonal expansion
+* Figure 6L: Pearson correlation coefficients for cluster distribution between shared clonotypes based on degree of clonal expansion
 * Figure S5A: Pearson correlation cofficients for cluster distribution between unique clonotypes based on degree of clonal expansion
 
 ### Notebook 07
 * Figure S4: AUCell score generation for tissue resident memory T cell signatures
 
 ### Notebook 08
-* Figures 5F-K: RNA trajectory analysis using Monocle3
+* Figures 6F-K: RNA trajectory analysis using Monocle3
 
 ## Links to External Tools
 ### Please check specific notebooks for version information
