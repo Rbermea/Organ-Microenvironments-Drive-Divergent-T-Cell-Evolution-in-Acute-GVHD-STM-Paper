@@ -37,7 +37,7 @@ cds <- order_cells(cds)
 ```
 
 ```{r}
-plot_cells(cds, label_cell_groups = FALSE, color_cells_by = "pseudotime" , show_trajectory_graph = TRUE, group_label_size = 50, graph_label_size = 3, cell_size = 2, trajectory_graph_segment_size = 5, label_leaves = TRUE, label_roots = TRUE, label_branch_points = TRUE, trajectory_graph_color = "black") # Original Segment Size = 3
+plot_cells(cds, label_cell_groups = FALSE, color_cells_by = "pseudotime" , show_trajectory_graph = TRUE, group_label_size = 50, graph_label_size = 3, cell_size = 2, trajectory_graph_segment_size = 5, label_leaves = TRUE, label_roots = TRUE, label_branch_points = TRUE, trajectory_graph_color = "black")
 ```
 
 ```{r}
