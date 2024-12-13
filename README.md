@@ -1,4 +1,4 @@
-# Organ Microenvironments Drive Divergent T Cell Evolution in Acute GVHD (STM 2024) Single Cell Analysis Code Repo
+# Organ Microenvironments Drive Divergent T Cell Evolution in Acute GVHD (STM 2025) Single Cell Analysis Code Repo
 
 * This repository contains code and analysis to replicate the single cell analysis findings of Ingersoll and Bermea et al
 * Location of primary files can be found on the Gene Expression Omnibus database (GSE284173)
