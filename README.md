@@ -2,11 +2,11 @@
 
 * This repository contains code and analysis to replicate the single cell analysis findings of Ingersoll and Bermea et al
 * Location of the primary files, including raw data, can be found on the Gene Expression Omnibus (GEO) database (GSE284173).
-* We have provided access to several processed .hdf5 files as well on GEO (GSE284173). The GEO file names correspond to the filenames in this repository as follows:
+* We have provided access to several processed .hdf5 files as well on GEO (GSE284173). The GEO file names correspond to the following file names in this repository as follows:
   * GSE284173.hdf5 --> 01_pre_filtered_object.hdf5
   * GSE284173_1.hdf5 --> 02_final_filtered_object.hdf5
   * GSE284173_2.hdf5 --> 03_shared_clonotype_object.hdf5
-* VAE models and the Trm gene signature list are provided directly in this repository
+* VAE models and the Trm gene signature list are located within this repository
 * Please note that this source code allows for the reproduction of data that is eventually used to create the figures found in the paper. Because many of our figures were generated using the GraphPad Prism software (Version 10, https://www.graphpad.com/), the end result of these notebooks will not result in visual output. 
 * Figures 5B, 5C, S3A, S3B, and S4 can be re-created from primary data using scanpy.pl.umap (https://scanpy.readthedocs.io/en/1.10.x/api/generated/scanpy.pl.umap.html). See external tools section below for more details
 * Figure S3D can be re-created from primary data using scanpy.pl.dotplot (https://scanpy.readthedocs.io/en/stable/generated/scanpy.pl.dotplot.html). See external tools section below for more details
