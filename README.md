@@ -28,7 +28,7 @@
 * Figure 6D: Euclidean distance calculation using latent space between shared clonotypes with at least 5 clones in both organs
 
 ### Notebook 05
-* Figure 5E: Calculation of Jaccard similarity coefficients for cluster distributions between shared clonotypes 
+* Figure 6E: Calculation of Jaccard similarity coefficients for cluster distributions between shared clonotypes 
 
 ### Notebook 06
 * Figure 6L: Pearson correlation coefficients for cluster distribution between shared clonotypes based on degree of clonal expansion
